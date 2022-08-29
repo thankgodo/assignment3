@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to my Webpage</title>
+</head>
+
+<body>
+    <h1>3rd HTML Assignment</h1>
+
+<!--1. Create a html file
+2. Create a folder called "others" and inside this folder create three (3) html files called "about.html", "contact.html" and "blog.html" respectively
+3. Create a heading in your html file "Welcome to my Webpage"-->
+
+<!--4. Add three anchor tag redirecting us to each of the HTML file in the "others" folder e.g "<a href="the path to your html file"> Take me to About us Page</a>"-->
+<p><h3>Click below to be redirected to my pages as indicated:</h3></p>
+<a href="C:\Users\User\Desktop\Web Dev Class\others\about.html"> Take me to About us Page</a><br><br>
+<a href="C:\Users\User\Desktop\Web Dev Class\others\blog.html"> Take me to Blog Page</a><br><br>
+<a href="C:\Users\User\Desktop\Web Dev Class\others\contact.html"> Take me to Contact us Page</a><br>
+
+<!--6. Create a form which will carry the following details:
+Note: Remember to use your label tag
+a. First Name
+b. Last Name
+c. Email
+d. Password, it should have an attribute of "required"
+e. Gender -- With 3 options to choose one i.e Male, Female or rather not say
+f. Favorite Foods -- select multiple options
+Beans
+Rice
+Spaghetti
+Soup
+Pizza
+g. Certificate -- select one, (remember using the select tag)
+Options
+FSLC
+O'Level
+BSC
+h. Phone number
+I. Tell us about yourself -- using "textarea"
+j. Submit-->
+<br><br>
+<form> 
+    <P>Personal Information</P>
+<label for="fname">First Name </label>
+<input type="text" id="fname"><br><br>
+<label for="lname">Last Name </label>
+<input type="text" id="lname"> <br><br>
+<label for="email">Email </label>
+<input type="email" id="email"><br><br>
+<label for="pword">password</label>
+<input type="password" id="pword" required>
+<label for="">* required</label>
+
+<p>Gender</p>
+  <input type="radio" id="Male" name="gender" value="Male">
+  <label for="gender1">Male</label><br>
+  <input type="radio" id="Female" name="gender" value="Female">
+  <label for="gender2">Female</label><br>  
+  <input type="radio" id="age3" name="gender" value="rather not say">
+  <label for="gender3">rather not say</label><br><br>
+
+  <p>Favorite Food</p>
+    <input type="checkbox" id="Beans" name="food1">
+    <label for="Beans">Beans</label><br>
+    <input type="checkbox" id="Rice" name="food2" >
+    <label for="Rice">Rice</label><br>
+    <input type="checkbox" id="Spaghetti" name="food3" >
+    <label for="Spaghetti">Spaghetti</label><br>
+    <input type="checkbox" id="Soup" name="food4" >
+    <label for="Soup">Soup</label><br>
+    <input type="checkbox" id="Pizza" name="food5" >
+    <label for="Pizza">Pizza</label><br>
+
+  <p>Certificate</p>
+    <label for="cars">Select Certificate:</label>
+    <select id="certificate" name="certificate">
+    <option value="FLSC">FLSC</option>
+    <option value="O'Level">O'Level</option>
+    <option value="BSC">BSC</option>
+    
+    <input type="submit">
+
+  </select>
+</form>
+
+
+
+
+
+</body>
+</html>
